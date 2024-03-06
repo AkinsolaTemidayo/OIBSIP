@@ -1,2 +1,2 @@
 # OASIS  INFOBYTE
-Web Development Imternship Program
+Web Development Internship Program
