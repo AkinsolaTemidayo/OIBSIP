@@ -28,10 +28,10 @@ h1 {
 .content-container {
     display: flex;
     justify-content: center;
-    background-color: #fff; /* Add background color */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
-    padding: 20px; /* Add padding for spacing */
-    border-radius: 10px; /* Add border-radius for rounded corners */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .content {
@@ -45,4 +45,14 @@ h1 {
 .text {
     flex: 1;
     padding: 0 20px;
+}
+
+.nameicon{
+    font-weight: bold;
+    transition: .1s;
+    cursor: pointer;
+}
+
+.nameicon:hover{
+    text-decoration: underline;
 }
