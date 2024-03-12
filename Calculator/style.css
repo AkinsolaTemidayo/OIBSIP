@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header_text{
+    text-transform: uppercase;
+}
+.calculator {
+    width: 300px;
+    margin: 200px auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(2,165,232);
+    background: linear-gradient(90deg, rgba(2,165,232,0.4765077906162465) 41%, rgba(1,190,240,1) 93%, rgba(10,140,166,0.2944349614845938) 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.display {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 5px;
+    font-size: 20px;
+}
+.button {
+    width: 70px;
+    height: 40px;
+    margin: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
