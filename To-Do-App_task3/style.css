@@ -1,0 +1,128 @@
+body {
+  background-image: url(./img/To-do-list_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-app {
+  max-width: 600px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px 30px 50px;
+  margin: 120px auto 15px;
+  margin-right: 890px;
+  border-radius: 15px;
+}
+
+.todo-app h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 20px;
+  border: 4px solid #632fff;
+  border-radius: 15px;
+  font-size: 1rem;
+  margin-left: 20px;
+}
+
+.btn {
+  background-color: #632fff;
+  border: none;
+  color: #fff;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 1.8rem;
+}
+
+.btn:hover {
+  background-color: #4a15e9;
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 1.1rem;
+  padding: 10px 6px 10px 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+ul li span {
+  position: absolute;
+  top: 1.8px;
+  right: 5px;
+  color: rgb(227, 120, 26);
+  font-size: 2rem;
+}
+
+.time {
+  font-size: 18px;
+  margin-right: 80px;
+  margin-top: 13px;
+}
+
+.delete-icon {
+  margin-top: 7px;
+  margin-right: 10px;
+  color: #ff0000;
+}
+
+.edit-icon {
+  margin-right: 150px;
+  font-size: 21px;
+  margin-top: 10px;
+}
+.task-checkbox {
+  margin-left: -30px;
+  width: 18px;
+  height: 18px;
+}
+.edit-input {
+  border: none;
+}
+.task-title {
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: top;
+  width: 20px;
+  margin-right: 480px;
+  color: #000;
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+.task-item:last-child {
+  border-bottom: none;
+}
+
+.task-item {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+#task-list {
+  padding: 0px 30px;
+}
+
+.completed .task-title {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.copyright-text {
+  margin-left: 1200px;
+  margin-top: 265px;
+  position: absolute;
+  font-size: 18px;
+  color: #ccc;
+}
