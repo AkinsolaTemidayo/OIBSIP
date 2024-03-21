@@ -1,9 +1,8 @@
-const display = document.getElementById("display"); // Get reference to the display element
-const clearButton = document.getElementById("clear"); // Get reference to the clear button
-const buttons = document.querySelectorAll(".button:not(#clear):not(#delete)"); // Get references to numeric buttons excluding clear and delete buttons
-const operatorButtons = document.querySelectorAll(".operator"); // Get references to operator buttons
-const deleteButton = document.getElementById("delete"); // Get reference to the delete button
-
+const display = document.getElementById("display"); 
+const clearButton = document.getElementById("clear"); 
+const buttons = document.querySelectorAll(".button:not(#clear):not(#delete)"); 
+const operatorButtons = document.querySelectorAll(".operator"); 
+const deleteButton = document.getElementById("delete"); 
 // Initialize expression string to store input
 let expression = "";
 
