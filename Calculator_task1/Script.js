@@ -1,8 +1,8 @@
-const display = document.getElementById("display"); 
-const clearButton = document.getElementById("clear"); 
-const buttons = document.querySelectorAll(".button:not(#clear):not(#delete)"); 
-const operatorButtons = document.querySelectorAll(".operator"); 
-const deleteButton = document.getElementById("delete"); 
+const display = document.getElementById("display");
+const clearButton = document.getElementById("clear");
+const buttons = document.querySelectorAll(".button:not(#clear):not(#delete)");
+const operatorButtons = document.querySelectorAll(".operator");
+const deleteButton = document.getElementById("delete");
 // Initialize expression string to store input
 let expression = "";
 
@@ -73,3 +73,13 @@ function calculate() {
   display.textContent = result; // Update the display with the result
   expression = result.toString(); // Update the expression with the result as a string
 }
+
+const d = new Date();
+document.getElementById("demo").innerHTML =
+  "Develop and Design By " +
+  "" +
+  "Akinsola Temidayo " +
+  "&copy" +
+  " " +
+  d.getFullYear() +
+  "";

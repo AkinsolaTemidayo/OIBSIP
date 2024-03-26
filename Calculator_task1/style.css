@@ -67,3 +67,11 @@ body {
 #equals {
   grid-column: span 2;
 }
+
+.copyright-text {
+  right: 8px;
+  bottom: -10px;
+  position: absolute;
+  font-size: 16px;
+  color: #25252563;
+}
