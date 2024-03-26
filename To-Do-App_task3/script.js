@@ -59,7 +59,7 @@ taskList.addEventListener("click", (e) => {
     inputField.addEventListener("keypress", (event) => {
       if (event.key === "Enter") {
         taskTitle.textContent = inputField.value;
-        inputField.replaceWith(taskTitle); // Replace input field with task title
+        inputField.replaceWith(taskTitle);
         saveListData();
       }
     });
@@ -106,7 +106,7 @@ showListData();
 
 const d = new Date();
 document.getElementById("demo").innerHTML =
-  "Developed By " +
+  "Develop and Design By " +
   "" +
   "Akinsola Temidayo " +
   "&copy" +
