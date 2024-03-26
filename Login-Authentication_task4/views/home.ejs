@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="shortcut icon" href="/Logo_color.png" type="image/x-icon" />
+  </head>
+  <body>
+
+
+    <h2 style="text-align: center; font-weight: 700; font-family: Arial, Helvetica, sans-serif;">Welcome to my page</h2>
+    
+    <% if (session && session.authenticated) { %>
+    <button id="authBtn" style="display: none"></button>
+    <% if (!session.authDisplayed) { %>
+    <script>
+      alert("Click Ok to Proceed");
+      document.getElementById("authBtn").style.display = "block";
+      <% session.authDisplayed = true; %>
+    </script>
+    <% } %> <% } %>
+
+    <script>
+      // Redirect to home page when button is clicked
+      document.getElementById("authBtn").addEventListener("click", function () {
+        window.location.href = "/home";
+      });
+    </script>
+</html>
